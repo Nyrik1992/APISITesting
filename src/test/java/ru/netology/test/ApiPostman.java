@@ -24,7 +24,7 @@ public class ApiPostman {
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
 
                 .body("[1].currency", equalTo("USD"))
-                .body("[0].currency", equalTo("RUS"))
+                .body("[0].currency", equalTo("RUB"))
         ;
 
 
